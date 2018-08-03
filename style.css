@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+  color: #000;
+  font-size: 13px;
+  height: 100%;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav_elements {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 20px 10px 10px 10px;
+}
+
+.l_nav {
+  float: left;
+}
+
+.r_nav {
+  float: right;
+
+}
+
+.move_up {
+  margin: 10px 10px 10px 10px;
+}
+
+.move_up_2 {
+  margin: 16px 10px 10px 10px;
+}
+
+.center_pic {
+  width: auto;
+
+}
+
+.pic {
+  margin-top: 5%;
+  margin-left: 29%;
+}
+
+.search_bar {
+  width: auto;
+  height: 0;
+  margin-top: 2%;
+  margin-left: 25%;
+}
+
+input[type=text] {
+  width:520px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e0e0;
+  box-shadow: 1.5px 3px 0 2px #efefef;
+  margin-left: 10%;
+}
+
+.search_buttons {
+  margin-left: 20%;
+  width: 100%;
+}
+
+button {
+  width: 120px;
+  height: 32px;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.foot {
+position: absolute;
+bottom: 0;
+width:100%;
+height: 30px;
+
+}
+
+.r_footer {
+  float: right;
+  margin: 20px;
+}
+
+.l_footer {
+  float: left;
+  margin: 20px;
+}
